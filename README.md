@@ -1,2 +1,2 @@
 # ddos
-# By Op Hackz @BackupRedirect
+# By Op Hackz @rajss12

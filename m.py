@@ -7,7 +7,7 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('6999977448:AAEE85H_At-nuN2e79K6VrTFGzOSs6kQTFI')
+bot = telebot.TeleBot('7098501775:AAH-zL6ESBS-im5qDnSBR_UojAE9DZTZc-I')
 
 # Admin user IDs
 admin_id = ["5135686022"]
@@ -284,7 +284,7 @@ def show_help(message):
 
  To See Admin Commands:
  /admincmd : Shows All Admin Commands.
- By @BackupRedirect
+ By @rajss12
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -299,7 +299,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy @BackupRedirect"
+    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy @rajss12"
     bot.reply_to(message, response)
 
 
@@ -327,7 +327,7 @@ Pr-ice List:
 Day-->150 Rs
 Week-->900 Rs
 Month-->1600 Rs
-To Buy Any Plan Dm @Contact2ProBot
+To Buy Any Plan Dm @rajss12
 '''
     bot.reply_to(message, response)
 
